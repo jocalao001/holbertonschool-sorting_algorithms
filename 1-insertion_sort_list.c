@@ -4,9 +4,10 @@
  *                       in ascending order.
  * @list:                List to sort.
  */
-void insertion_sort_list(listint_t **list){
-	listint_t *curr = NULL; 
-	listint_t *prev = NULL; 
+void insertion_sort_list(listint_t **list)
+{
+	listint_t *curr = NULL;
+	listint_t *prev = NULL;
 
 	if (list == NULL)
 		return;
